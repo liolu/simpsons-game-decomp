@@ -1,0 +1,16 @@
+#include "m2c.h"
+#include "engine.h"
+
+void func_020c8d00(M2C_UNK);
+
+void func_0201d538(s32 arg0) {
+    s32 temp_r0;
+
+    temp_r0 = M2C_FIELD(arg0, s32 *, 0x44);
+    if (temp_r0 == 0) {
+        return;
+    }
+    func_020c8d00(temp_r0);
+    M2C_FIELD(arg0, s32 *, 0x44) = 0;
+    M2C_FIELD(arg0, s32 *, 0x48) = 0;
+}

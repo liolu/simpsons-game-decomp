@@ -1,0 +1,8 @@
+#include "m2c.h"
+
+M2C_UNK func_ov000_0216f990();                      /* extern */
+
+s32 func_02073460(s32 arg0) {
+    func_ov000_0216f990();
+    return arg0;
+}
