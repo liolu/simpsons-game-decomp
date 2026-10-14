@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020bf860(M2C_UNK);
 
@@ -14,7 +14,7 @@ s32 func_020bfe5c(s32 arg0) {
         func_020bf860((s32) &data_02130f38);
         return 0;
     }
-    temp_r1 = M2C_FIELD(M2C_FIELD(arg0, void **, 0), s32 (**)(s32), 0x1C);
+    temp_r1 = M2C_FIELD(M2C_FIELD(arg0, void **, 0), s32(**)(s32), 0x1C);
     if (temp_r1 != NULL) {
         var_r4 = temp_r1(M2C_FIELD(arg0, s32 *, 4));
     } else {

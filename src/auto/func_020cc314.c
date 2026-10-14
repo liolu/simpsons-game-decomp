@@ -9,8 +9,8 @@ extern s32 data_02153bf0;
 void func_020cc314(void *arg0, s32 arg1) {
     if (data_02153bf0 != 0) {
         func_020cc8f8(arg0, func_020cc2d0);
-        M2C_FIELD(arg0, s32 *, 4) = arg1;
-        M2C_FIELD(arg0, s32 *, 0) = (s32) (M2C_FIELD(arg0, s32 *, 0) | 0x80);
+        M2C_FIELD(arg0, s32 *, 4)    = arg1;
+        M2C_FIELD(arg0, s32 *, 0)    = (s32) (M2C_FIELD(arg0, s32 *, 0) | 0x80);
         M2C_FIELD(arg0, s32 *, 0x64) = 1;
         func_020cc9b0(arg0);
         return;

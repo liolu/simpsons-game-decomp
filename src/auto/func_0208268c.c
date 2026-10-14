@@ -1,6 +1,6 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_0208268c(s32 arg0) {
-    *(M2C_UNK *)arg0 = 4;
+    *(M2C_UNK *) arg0 = 4;
 }

@@ -29,7 +29,7 @@ s32 func_020c3030(void *arg0) {
     func_020c3314(arg0 + 0x1B4, arg0 + 0x1E4);
     func_020c33c0(M2C_FIELD(arg0, s32 *, 0x1AC), arg0 + 0x1E4, arg0 + 0x220);
     func_020c34c4(M2C_FIELD(arg0, s32 *, 0x1AC), arg0 + 0x1E4, arg0 + 0x220, arg0 + 0x320, arg0 + 0x420);
-    M2C_FIELD(arg0, s8 *, 0x1A5) = 1;
+    M2C_FIELD(arg0, s8 *, 0x1A5)  = 1;
     M2C_FIELD(arg0, s32 *, 0x1A8) = 0;
     return 0;
 }

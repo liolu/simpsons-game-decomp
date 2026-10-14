@@ -11,7 +11,7 @@ void func_0204d584(void *arg0, s32 **arg1, s32 arg2) {
         return;
     }
     M2C_FIELD(arg0, s32 **, 0) = (s32 *) *arg1;
-    temp_r0 = func_0204d5c4();
+    temp_r0                    = func_0204d5c4();
     if (temp_r0 != NULL) {
         *temp_r0 = arg2;
     }

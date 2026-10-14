@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020bdca8(M2C_UNK, M2C_UNK);
 
@@ -23,7 +23,7 @@ s32 func_020be640(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
         return 0;
     }
     if (arg1 == 0) {
-        var_r4 = M2C_FIELD(arg0, s32 *, 0x10);
+        var_r4  = M2C_FIELD(arg0, s32 *, 0x10);
         temp_r0 = M2C_FIELD(arg0, s32 *, 0x24) + (M2C_FIELD(arg0, s32 *, 0x20) - M2C_FIELD(arg0, s32 *, 0x14));
         if (var_r4 >= temp_r0) {
             var_r4 = temp_r0;
@@ -32,7 +32,7 @@ s32 func_020be640(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
             var_r4 = arg2;
         }
     } else if (arg1 == 1) {
-        var_r4 = M2C_FIELD(arg0, s32 *, 0xC);
+        var_r4    = M2C_FIELD(arg0, s32 *, 0xC);
         temp_r0_2 = M2C_FIELD(arg0, s32 *, 0x24) + (M2C_FIELD(arg0, s32 *, 0x20) - M2C_FIELD(arg0, s32 *, 0x18));
         if (var_r4 >= temp_r0_2) {
             var_r4 = temp_r0_2;
@@ -41,13 +41,13 @@ s32 func_020be640(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
             var_r4 = arg2;
         }
     } else {
-        temp_r2 = M2C_FIELD(arg0, M2C_UNK (**)(s32, M2C_UNK), 0x38);
-        var_r4 = 0;
+        temp_r2 = M2C_FIELD(arg0, M2C_UNK(**)(s32, M2C_UNK), 0x38);
+        var_r4  = 0;
         if (temp_r2 != NULL) {
             temp_r2(M2C_FIELD(arg0, s32 *, 0x3C), -3);
         }
     }
-    *(M2C_UNK *)arg3 = var_r4;
+    *(M2C_UNK *) arg3 = var_r4;
     if (var_r4 == arg2) {
         return 1;
     }

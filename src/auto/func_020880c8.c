@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_02048470(void);
 
@@ -7,7 +7,7 @@ void func_020880c8(s32 arg0) {
     u32 temp_r0;
     void *var_r1;
 
-    temp_r0 = M2C_FIELD(arg0, u32 *, 0x34) + 1;
+    temp_r0                      = M2C_FIELD(arg0, u32 *, 0x34) + 1;
     M2C_FIELD(arg0, u32 *, 0x34) = temp_r0;
     if (temp_r0 < 0x12CU) {
         return;

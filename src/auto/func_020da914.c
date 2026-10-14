@@ -15,7 +15,7 @@ s32 func_020da914(M2C_UNK arg0, M2C_UNK arg1) {
     if (temp_r0 != 0) {
         return temp_r0;
     }
-    temp_r0_2 = func_020d9af0();
+    temp_r0_2                          = func_020d9af0();
     M2C_FIELD(temp_r0_2, s16 *, 0x150) = 0;
     M2C_FIELD(temp_r0_2, s32 *, 0x14C) = 0;
     func_020d9ca4(8, arg0);

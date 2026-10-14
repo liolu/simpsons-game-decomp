@@ -13,7 +13,7 @@ s32 func_0202dc54(s8 *arg0) {
     }
     var_r3 = *var_r0;
     if (var_r3 != 0) {
-loop_3:
+    loop_3:
         if (var_r3 == 0x2A) {
             var_r4 ^= func_0202dc54(var_r0 + 1);
         } else {

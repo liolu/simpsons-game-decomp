@@ -9,10 +9,10 @@ s32 func_020c6658(s32 arg0, s32 arg1, s16 *arg2) {
     s32 var_r9;
 
     temp_r7 = arg1 - 3;
-    var_r8 = 0x7FFFFFFF;
-    var_r9 = 0;
+    var_r8  = 0x7FFFFFFF;
+    var_r9  = 0;
     if (temp_r7 > 0) {
-loop_2:
+    loop_2:
         if (func_020e2660(arg0 + var_r9, &data_02136b7c, 4) == 0) {
             if (var_r9 >= 0x7FFFFFFF) {
                 var_r9 = 0x7FFFFFFF;

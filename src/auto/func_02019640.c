@@ -1,11 +1,11 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_02019640(s32 arg0) {
     s32 var_r0;
     void *temp_r1;
 
-    temp_r1 = *(M2C_UNK *)arg0;
+    temp_r1 = *(M2C_UNK *) arg0;
     if (temp_r1 != NULL) {
         var_r0 = 1;
     } else {

@@ -22,7 +22,7 @@ void func_02011e68(void *arg0, M2C_UNK arg1) {
     if (func_020d1434(arg0 + 8, arg1) == 0) {
         return;
     }
-    temp_r0 = func_020c70a0(arg0 + 8, 4, 0);
+    temp_r0                   = func_020c70a0(arg0 + 8, 4, 0);
     M2C_FIELD(arg0, s32 *, 0) = temp_r0;
     if (temp_r0 == 0) {
         return;

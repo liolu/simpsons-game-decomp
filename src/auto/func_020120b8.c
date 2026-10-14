@@ -7,7 +7,7 @@ s32 func_020120b8(s32 *arg0) {
     s32 temp_r0;
 
     temp_r0 = func_020cbbc4();
-    *arg0 = temp_r0;
+    *arg0   = temp_r0;
     if (temp_r0 == -3) {
         return 0;
     }

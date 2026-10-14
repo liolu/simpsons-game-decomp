@@ -10,11 +10,12 @@ s32 func_020c3114(void *arg0, s32 arg1) {
     s32 var_r8;
 
     temp_r0 = M2C_FIELD(arg0, s32 *, 0x1A8);
-    var_r4 = arg1;
+    var_r4  = arg1;
     if (temp_r0 == 0xC) {
         return 0;
     }
-    func_020c3750(M2C_FIELD(arg0, s32 *, 0x1AC), arg0 + 0x1E4, arg0 + 0x220, arg0 + 0x420, temp_r0 >> 2, M2C_FIELD(arg0, s32 *, 0));
+    func_020c3750(M2C_FIELD(arg0, s32 *, 0x1AC), arg0 + 0x1E4, arg0 + 0x220, arg0 + 0x420, temp_r0 >> 2,
+                  M2C_FIELD(arg0, s32 *, 0));
     var_r7 = 0;
     var_r8 = 0;
     do {

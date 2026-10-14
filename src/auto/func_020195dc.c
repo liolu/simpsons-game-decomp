@@ -14,6 +14,6 @@ void func_020195dc(void **arg0, s16 arg1, s16 arg2) {
         return;
     }
     M2C_FIELD(temp_ip, s16 *, 0x34) = 2;
-    M2C_FIELD(*arg0, s16 *, 0x38) = arg1;
-    M2C_FIELD(*arg0, s16 *, 0x3A) = arg2;
+    M2C_FIELD(*arg0, s16 *, 0x38)   = arg1;
+    M2C_FIELD(*arg0, s16 *, 0x3A)   = arg2;
 }

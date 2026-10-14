@@ -24,7 +24,7 @@ void func_020bf87c(s32 arg0, s32 arg1) {
         func_020bf860(&data_02130dd4);
         return;
     }
-    temp_r2 = M2C_FIELD(temp_r0, M2C_UNK (**)(M2C_UNK *, M2C_UNK), 4);
+    temp_r2 = M2C_FIELD(temp_r0, M2C_UNK(**)(M2C_UNK *, M2C_UNK), 4);
     if (temp_r2 == NULL) {
         return;
     }

@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020b8234(void);
 void func_020b8240(void);
@@ -18,8 +18,8 @@ void func_020b97c4(void) {
     }
     M2C_FIELD(&data_0214d9d8, s32 *, 0x10) = 1;
     func_020b8240();
-    if (M2C_FIELD(&data_0214d9d8, M2C_UNK (**)(s32), 8) != NULL) {
-        M2C_FIELD(&data_0214d9d8, M2C_UNK (**)(s32), 8)(M2C_FIELD(&data_0214d9d8, s32 *, 4));
+    if (M2C_FIELD(&data_0214d9d8, M2C_UNK(**)(s32), 8) != NULL) {
+        M2C_FIELD(&data_0214d9d8, M2C_UNK(**)(s32), 8)(M2C_FIELD(&data_0214d9d8, s32 *, 4));
     }
     M2C_FIELD(&data_0214d9d8, s32 *, 0x10) = 3;
     func_020bb94c();
@@ -34,8 +34,8 @@ void func_020b97c4(void) {
     M2C_FIELD(&data_0214d9d8, s32 *, 0x10) = 9;
     func_020bb96c();
     M2C_FIELD(&data_0214d9d8, s32 *, 0x10) = 0;
-    if (M2C_FIELD(&data_0214d9d8, M2C_UNK (**)(s32), 0) == NULL) {
+    if (M2C_FIELD(&data_0214d9d8, M2C_UNK(**)(s32), 0) == NULL) {
         return;
     }
-    M2C_FIELD(&data_0214d9d8, M2C_UNK (**)(s32), 0)(M2C_FIELD(&data_0214d9d8, s32 *, 0x14));
+    M2C_FIELD(&data_0214d9d8, M2C_UNK(**)(s32), 0)(M2C_FIELD(&data_0214d9d8, s32 *, 0x14));
 }

@@ -16,6 +16,6 @@ void func_02014f58(void *arg0) {
     func_02015070(arg0);
     func_0201509c(arg0);
     M2C_FIELD(arg0, void **, 0x1048) = (void *) (arg0 + 0x48);
-    M2C_FIELD(arg0, s32 *, 0x1050) = 0x400;
-    M2C_FIELD(arg0, s32 *, 0x104C) = 0;
+    M2C_FIELD(arg0, s32 *, 0x1050)   = 0x400;
+    M2C_FIELD(arg0, s32 *, 0x104C)   = 0;
 }

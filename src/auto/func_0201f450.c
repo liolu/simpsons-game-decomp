@@ -11,8 +11,8 @@ void func_0201f450(s32 arg0) {
 
     func_0201ecfc(arg0 + 0x6D4);
     temp_r4 = arg0 + 0x4C;
-    var_r5 = temp_r4 + 0x344;
-    var_r9 = 1;
+    var_r5  = temp_r4 + 0x344;
+    var_r9  = 1;
     do {
         if (func_0201ed24(var_r5) != 0) {
             func_0200f5e8(((var_r9 + 1) * 0x344) + temp_r4, var_r5, 0x344);

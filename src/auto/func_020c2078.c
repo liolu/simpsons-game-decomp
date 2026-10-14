@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_020c2078(s32 arg0) {
     if (arg0 == 0) {

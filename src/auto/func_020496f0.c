@@ -8,6 +8,7 @@ s32 func_020496f0(s32 arg0, void *arg1) {
     s32 temp_r4;
 
     temp_r4 = func_02048470();
-    func_02047e3c(temp_r4, M2C_FIELD(arg1, u8 *, 1), M2C_FIELD(arg1, u8 *, 0) + func_02047e30(func_02048470(), M2C_FIELD(arg1, u8 *, 1)));
+    func_02047e3c(temp_r4, M2C_FIELD(arg1, u8 *, 1),
+                  M2C_FIELD(arg1, u8 *, 0) + func_02047e30(func_02048470(), M2C_FIELD(arg1, u8 *, 1)));
     return 1;
 }

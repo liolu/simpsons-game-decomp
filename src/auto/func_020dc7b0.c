@@ -22,7 +22,7 @@ void func_020dc7b0(M2C_UNK arg0) {
         var_r6 += 1;
     } while ((u32) var_r6 < 0x10U);
     data_021570a0 = 0;
-    var_r6_2 = 1;
+    var_r6_2      = 1;
     do {
         temp_r0 = func_020da200(arg0, var_r6_2);
         if (temp_r0 != NULL) {

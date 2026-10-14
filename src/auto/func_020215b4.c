@@ -12,20 +12,20 @@ s32 func_020215b4(void) {
 
     M2C_FIELD(&data_0214a1c0, s32 *, 0x34) = 0;
     M2C_FIELD(&data_0214a1c0, s32 *, 0x3C) = 0xB;
-    temp_r0 = func_020da8bc(&func_02021624);
+    temp_r0                                = func_020da8bc(&func_02021624);
     switch (temp_r0) {                              /* irregular */
-    case 0:
-        return 1;
-    case 2:
-        func_02020aa8(0xC);
-        if (M2C_FIELD(&data_0214a1c0, s32 *, 0x34) == 0) {
-            var_r0 = 1;
-        } else {
-            var_r0 = 0;
-        }
-        return var_r0;
-    default:
-        func_02020a8c();
-        return 0;
+        case 0:
+            return 1;
+        case 2:
+            func_02020aa8(0xC);
+            if (M2C_FIELD(&data_0214a1c0, s32 *, 0x34) == 0) {
+                var_r0 = 1;
+            } else {
+                var_r0 = 0;
+            }
+            return var_r0;
+        default:
+            func_02020a8c();
+            return 0;
     }
 }

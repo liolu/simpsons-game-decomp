@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_0202c41c(s32 arg0, s32 arg1) {
     s16 temp_r3_5;
@@ -12,9 +12,9 @@ s32 func_0202c41c(s32 arg0, s32 arg1) {
     s8 temp_r3_3;
     s8 temp_r3_4;
 
-    var_r2 = 0;
+    var_r2                            = 0;
     M2C_FIELD(arg0, volatile s8 *, 5) = (s8) (M2C_FIELD(arg0, volatile s8 *, 5) + M2C_FIELD(arg1, volatile s8 *, 5));
-    temp_r3 = M2C_FIELD(arg0, volatile s8 *, 5);
+    temp_r3                           = M2C_FIELD(arg0, volatile s8 *, 5);
     if ((s32) temp_r3 < 0) {
         if ((s32) temp_r3 < 0) {
             do {
@@ -82,14 +82,14 @@ s32 func_0202c41c(s32 arg0, s32 arg1) {
         if ((s32) temp_r3_4 < 0) {
             do {
                 var_r2 |= 8;
-                M2C_FIELD(arg0, volatile s8 *, 2) = (s8) (M2C_FIELD(arg0, volatile s8 *, 2) + 0x18);
+                M2C_FIELD(arg0, volatile s8 *, 2)  = (s8) (M2C_FIELD(arg0, volatile s8 *, 2) + 0x18);
                 M2C_FIELD(arg0, volatile s16 *, 0) = (s16) (M2C_FIELD(arg0, volatile s16 *, 0) - 1);
             } while ((s32) M2C_FIELD(arg0, volatile s8 *, 2) < 0);
         }
     } else if ((s32) temp_r3_4 >= 0x18) {
         do {
             var_r2 |= 8;
-            M2C_FIELD(arg0, volatile s8 *, 2) = (s8) (M2C_FIELD(arg0, volatile s8 *, 2) - 0x18);
+            M2C_FIELD(arg0, volatile s8 *, 2)  = (s8) (M2C_FIELD(arg0, volatile s8 *, 2) - 0x18);
             M2C_FIELD(arg0, volatile s16 *, 0) = (s16) (M2C_FIELD(arg0, volatile s16 *, 0) + 1);
         } while ((s32) M2C_FIELD(arg0, volatile s8 *, 2) >= 0x18);
     }

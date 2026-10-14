@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_020cc7b0(s32 arg0) {
     void *temp_r1;
@@ -7,7 +7,7 @@ s32 func_020cc7b0(s32 arg0) {
 
     temp_r2 = M2C_FIELD(arg0, void **, 0);
     if (temp_r2 != NULL) {
-        temp_r1 = M2C_FIELD(temp_r2, void **, 0x10);
+        temp_r1                     = M2C_FIELD(temp_r2, void **, 0x10);
         M2C_FIELD(arg0, void **, 0) = temp_r1;
         if (temp_r1 != NULL) {
             M2C_FIELD(temp_r1, s32 *, 0x14) = 0;

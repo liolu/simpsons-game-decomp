@@ -12,7 +12,7 @@ s32 func_020c165c(s8 *arg0, s32 *arg1) {
     if (func_020e5e44() >= 0x12U) {
         func_020c15cc(0, 0);
     }
-    sp0 = arg0;
+    sp0     = arg0;
     temp_r4 = func_020c1600(arg0, &sp0, 0x10);
     if (*sp0 != 0) {
         sp0 += 1;

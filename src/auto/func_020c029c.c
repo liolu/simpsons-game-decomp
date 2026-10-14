@@ -10,7 +10,7 @@ s32 func_020c029c(void) {
     if (temp_r0 == NULL) {
         return 0;
     }
-    temp_ip = M2C_FIELD(temp_r0, s32 (**)(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK), 0x60);
+    temp_ip = M2C_FIELD(temp_r0, s32(**)(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK), 0x60);
     if (temp_ip == NULL) {
         return 0;
     }

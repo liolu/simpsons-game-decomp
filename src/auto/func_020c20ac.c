@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020c20fc(M2C_UNK, M2C_UNK, M2C_UNK);
 void func_020c90a4(M2C_UNK);
@@ -9,7 +9,7 @@ void func_020c20ac(s32 arg0) {
     u32 sp0;
 
     if (arg0 == 0) {
-loop_1:
+    loop_1:
         goto loop_1;
     }
     func_020c90a4(arg0 + 0x20);

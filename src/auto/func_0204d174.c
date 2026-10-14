@@ -8,7 +8,7 @@ void *func_0204d174(void *arg0) {
     u32 var_r6;
 
     temp_r5 = (M2C_FIELD(arg0, s32 *, 0x10) * 0xC) + M2C_FIELD(arg0, s32 *, 0);
-    var_r6 = (M2C_FIELD(arg0, s32 *, 4) * 0xC) + temp_r5;
+    var_r6  = (M2C_FIELD(arg0, s32 *, 4) * 0xC) + temp_r5;
     if (var_r6 > temp_r5) {
         do {
             var_r6 -= 0xC;

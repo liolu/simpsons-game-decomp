@@ -18,16 +18,16 @@ u16 func_020da12c(void) {
     temp_r2 = M2C_FIELD(temp_r4, void **, 4);
     temp_r0 = M2C_FIELD(temp_r2, u16 *, 0);
     switch (temp_r0) {                              /* irregular */
-    case 9:
-        func_020cce9c(temp_r2 + 0x182, 2);
-        if (M2C_FIELD(M2C_FIELD(temp_r4, void **, 4), u16 *, 0x182) == 0) {
+        case 9:
+            func_020cce9c(temp_r2 + 0x182, 2);
+            if (M2C_FIELD(M2C_FIELD(temp_r4, void **, 4), u16 *, 0x182) == 0) {
+                return 0U;
+            }
+        case 10:
+        case 11:
+            func_020cce9c(M2C_FIELD(temp_r4, void **, 4) + 0xBC, 2);
+            return M2C_FIELD(M2C_FIELD(temp_r4, void **, 4), u16 *, 0xBC);
+        default:
             return 0U;
-        }
-    case 10:
-    case 11:
-        func_020cce9c(M2C_FIELD(temp_r4, void **, 4) + 0xBC, 2);
-        return M2C_FIELD(M2C_FIELD(temp_r4, void **, 4), u16 *, 0xBC);
-    default:
-        return 0U;
     }
 }

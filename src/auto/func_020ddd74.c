@@ -10,8 +10,8 @@ void func_020ddd74(void *arg0, u32 arg1, u32 arg2, s32 arg3) {
     u32 var_lr;
     u32 var_r2;
 
-    var_r2 = arg2;
-    var_lr = arg1;
+    var_r2  = arg2;
+    var_lr  = arg1;
     temp_ip = M2C_FIELD(arg0, u32 *, 0);
     if (var_lr < 0x4000U) {
         var_lr = 0x4000;

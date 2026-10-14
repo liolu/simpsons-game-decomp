@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020b9ad8(s32 arg0) {
     M2C_FIELD(arg0, s32 *, 0xA0) = 0;
@@ -10,7 +10,7 @@ void func_020b9ad8(s32 arg0) {
     M2C_FIELD(arg0, s32 *, 0x3C) = -1;
     M2C_FIELD(arg0, s32 *, 0x40) = 0;
     M2C_FIELD(arg0, s32 *, 0x44) = 0;
-    M2C_FIELD(arg0, s8 *, 3) = 0;
+    M2C_FIELD(arg0, s8 *, 3)     = 0;
     M2C_FIELD(arg0, s32 *, 0xA8) = 0;
     M2C_FIELD(arg0, s32 *, 0xAC) = 0;
 }

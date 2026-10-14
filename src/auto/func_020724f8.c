@@ -1,8 +1,8 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020724f8(s32 arg0, s32 arg1, s32 arg2) {
-    M2C_FIELD(arg0, s8 *, 0x49) = (s8) arg1;
+    M2C_FIELD(arg0, s8 *, 0x49)  = (s8) arg1;
     M2C_FIELD(arg0, s32 *, 0x4C) = arg2;
     M2C_FIELD(arg0, s32 *, 0x50) = arg2;
 }

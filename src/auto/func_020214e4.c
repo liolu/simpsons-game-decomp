@@ -20,19 +20,19 @@ s32 func_020214e4(void) {
     func_02020a28(3);
     temp_r0 = func_020dabcc(&func_0202158c);
     switch (temp_r0) {                              /* irregular */
-    case 0:
-        return func_020215b4();
-    case 2:
-        func_02020aa8(0xE);
-        if (M2C_FIELD(&data_0214a1c0, s32 *, 0x34) == 0) {
-            func_02021cc8(&data_0210d27c);
+        case 0:
             return func_020215b4();
-        }
-        func_02021cc8(&data_0210d298);
-        return 0;
-    default:
-        func_02021cc8(&data_0210d2b4);
-        func_02020a8c(temp_r0);
-        return 0;
+        case 2:
+            func_02020aa8(0xE);
+            if (M2C_FIELD(&data_0214a1c0, s32 *, 0x34) == 0) {
+                func_02021cc8(&data_0210d27c);
+                return func_020215b4();
+            }
+            func_02021cc8(&data_0210d298);
+            return 0;
+        default:
+            func_02021cc8(&data_0210d2b4);
+            func_02020a8c(temp_r0);
+            return 0;
     }
 }

@@ -18,7 +18,7 @@ void func_020e0f18(void *arg0, s32 arg1) {
         data_02157180 = arg0;
         func_020e0ee8(arg0 + 0xC4);
         M2C_FIELD(arg0, s32 *, 0xC0) = 0;
-        temp_ip = (arg1 - 0xE4) & ~3;
+        temp_ip                      = (arg1 - 0xE4) & ~3;
         func_020cc3b0(arg0, &func_020e0fa0, arg0, arg0 + 0xE4 + temp_ip, temp_ip, 0);
         func_020cc168(arg0);
     }

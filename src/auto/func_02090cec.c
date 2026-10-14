@@ -20,6 +20,6 @@ void func_02090cec(void) {
         return;
     }
     func_020999b4(func_020483c4(), 3, 0);
-    temp_r0 = func_02048470();
+    temp_r0                        = func_02048470();
     M2C_FIELD(temp_r0, u8 *, 0xB6) = (u8) (M2C_FIELD(temp_r0, u8 *, 0xB6) | 8);
 }

@@ -24,21 +24,21 @@ s32 func_02020df0(void) {
     }
     temp_r0 = func_020da698(&func_02020ee8, &data_0214a280, 0, 1, 0);
     switch (temp_r0) {                              /* irregular */
-    case 0:
-        return 1;
-    case 2:
-        temp_r4 = M2C_FIELD(&data_0214a1c0, s32 *, 0x10);
-        M2C_FIELD(&data_0214a1c0, s32 *, 0x10) = 0xBB8;
-        if (func_02020aa8(0x1A) != 0) {
-            func_02021cc8(&data_0210d13c);
-            M2C_FIELD(&data_0214a1c0, s32 *, 0x10) = temp_r4;
+        case 0:
             return 1;
-        }
-        func_02021cc8(&data_0210d154);
-        M2C_FIELD(&data_0214a1c0, s32 *, 0x10) = temp_r4;
-        return 0;
-    default:
-        func_02020a8c();
-        return 0;
+        case 2:
+            temp_r4                                = M2C_FIELD(&data_0214a1c0, s32 *, 0x10);
+            M2C_FIELD(&data_0214a1c0, s32 *, 0x10) = 0xBB8;
+            if (func_02020aa8(0x1A) != 0) {
+                func_02021cc8(&data_0210d13c);
+                M2C_FIELD(&data_0214a1c0, s32 *, 0x10) = temp_r4;
+                return 1;
+            }
+            func_02021cc8(&data_0210d154);
+            M2C_FIELD(&data_0214a1c0, s32 *, 0x10) = temp_r4;
+            return 0;
+        default:
+            func_02020a8c();
+            return 0;
     }
 }

@@ -9,7 +9,8 @@ void func_02063198(void *arg0, void *arg1) {
     void *temp_r0;
 
     temp_r0 = func_0202ad60(M2C_FIELD(arg0, s32 *, 0x88));
-    if ((M2C_FIELD(arg1, s32 *, 0) == M2C_FIELD(temp_r0, s32 *, 0)) && (M2C_FIELD(arg1, s32 *, 4) == M2C_FIELD(temp_r0, s32 *, 4))) {
+    if ((M2C_FIELD(arg1, s32 *, 0) == M2C_FIELD(temp_r0, s32 *, 0)) &&
+        (M2C_FIELD(arg1, s32 *, 4) == M2C_FIELD(temp_r0, s32 *, 4))) {
         return;
     }
     func_020574e0(arg0 + 0x68, arg1);
