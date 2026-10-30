@@ -374,7 +374,7 @@ from:0x0215a6d0 kind:arm_call to:0x0201ec5c module:main
 from:0x0215a6e0 kind:arm_call to:0x0201f194 module:main
 from:0x0215a6ec kind:load to:0x0214d4c4 module:main
 from:0x0215a6f0 kind:load to:0x0217c0dc module:overlay(1)
-from:0x0215a6f4 kind:load to:0x0217c127 module:overlay(1)
+from:0x0215a6f4 kind:load to:0x0217c124 add:0x3 module:overlay(1)
 from:0x0215a6f8 kind:load to:0x0217c128 module:overlay(1)
 from:0x0215a6fc kind:load to:0x0217c10c module:overlay(1)
 from:0x0215a700 kind:load to:0x0217c0f4 module:overlay(1)

@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_0213718c[2] = {0x004E0049, 0x00000046};

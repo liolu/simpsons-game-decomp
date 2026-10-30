@@ -1,0 +1,23 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_0210af80[];
+extern u8 data_0210af88[];
+extern u8 data_0210af9c[];
+extern u8 data_0210afbc[];
+extern u8 data_021226b8[];
+extern u8 data_021226d0[];
+extern u8 data_0212bd9c[];
+extern u8 data_0212d2b8[];
+extern u8 data_0212d35c[];
+extern u8 data_02137900[];
+extern u8 data_02137910[];
+
+u32 data_0212cfe0[3]  = {(u32) &data_02137910, (u32) &data_0212d2b8, (u32) &data_0210af9c};
+u32 data_0212cfec[10] = {
+    (u32) &data_02137910, (u32) &data_0212d35c, (u32) &data_021226b8, (u32) &data_02137910, (u32) &data_0212bd9c,
+    (u32) &data_021226b8, 0x00000000,           0x00000000,           0x00000000,           0x00000000};
+u32 data_0212d014[19] = {0x00000000,           0x00000000,           0x00000000,           0x00000000, 0x00000000,
+                         (u32) &data_02137900, (u32) &data_021226d0, 0x00000000,           0x00000001, (u32) &data_0210af80,
+                         0x00000000,           (u32) &data_02137900, (u32) &data_0210afbc, 0x00000000, 0x00000002,
+                         (u32) &data_0210af80, 0x00000000,           (u32) &data_0210af88, 0x00000402};

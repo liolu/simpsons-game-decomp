@@ -1,0 +1,9 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_02119a9c[];
+extern u8 data_02137920[];
+extern u8 func_020184e8[];
+
+u32 data_0211dc10[1] = {0x00000011};
+u32 data_0211dc14[5] = {0xFFFFFFFF, (u32) &func_020184e8, 0x00000000, (u32) &data_02137920, (u32) &data_02119a9c};

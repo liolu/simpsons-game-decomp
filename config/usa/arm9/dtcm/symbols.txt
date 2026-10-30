@@ -19,13 +19,12 @@ data_027e0af8 kind:data(any) addr:0x027e0af8
 data_027e0b18 kind:data(any) addr:0x027e0b18
 data_027e0b30 kind:data(any) addr:0x027e0b30
 data_027e0b44 kind:data(any) addr:0x027e0b44
-data_027e0b56 kind:data(any) addr:0x027e0b56
 data_027e0b68 kind:data(any) addr:0x027e0b68
 data_027e0b7c kind:data(any) addr:0x027e0b7c
 data_027e0b90 kind:data(any) addr:0x027e0b90
 data_027e0ba8 kind:data(any) addr:0x027e0ba8
 data_027e0bc0 kind:data(any) addr:0x027e0bc0
 data_027e0ce0 kind:data(any) addr:0x027e0ce0
-data_027e0fce kind:data(any) addr:0x027e0fce
 data_027e11e0 kind:data(any) addr:0x027e11e0
 data_027e1440 kind:bss addr:0x027e1440
+data_027e1240 kind:bss addr:0x027e1240

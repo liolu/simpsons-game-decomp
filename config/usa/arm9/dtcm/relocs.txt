@@ -13,7 +13,7 @@ from:0x027e023c kind:load to:0x027e0af8 module:dtcm
 from:0x027e0240 kind:load to:0x027e0b18 module:dtcm
 from:0x027e0244 kind:load to:0x027e0b30 module:dtcm
 from:0x027e0248 kind:load to:0x027e0b44 module:dtcm
-from:0x027e0254 kind:load to:0x027e0b56 module:dtcm
+from:0x027e0254 kind:load to:0x027e0b44 add:0x12 module:dtcm
 from:0x027e0258 kind:load to:0x027e0b68 module:dtcm
 from:0x027e025c kind:load to:0x027e0b7c module:dtcm
 from:0x027e0260 kind:load to:0x027e0b90 module:dtcm

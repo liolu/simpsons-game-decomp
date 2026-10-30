@@ -1,2 +1,86 @@
     .data       start:0x027e0000 end:0x027e1240 kind:data align:32
     .bss        start:0x027e1240 end:0x027e1460 kind:bss align:32
+
+src/data/dtcm_bss_027e1440.c:
+    complete
+    .bss        start:0x027e1440 end:0x027e1460
+
+src/data/dtcm_data_027e0200.c:
+    complete
+    .data       start:0x027e0200 end:0x027e024c
+
+src/data/dtcm_data_027e024c.c:
+    complete
+    .data       start:0x027e024c end:0x027e0658
+
+src/data/dtcm_data_027e0658.c:
+    complete
+    .data       start:0x027e0658 end:0x027e0868
+
+src/data/dtcm_data_027e0868.c:
+    complete
+    .data       start:0x027e0868 end:0x027e08b8
+
+src/data/dtcm_data_027e08b8.c:
+    complete
+    .data       start:0x027e08b8 end:0x027e0908
+
+src/data/dtcm_data_027e0908.c:
+    complete
+    .data       start:0x027e0908 end:0x027e0938
+
+src/data/dtcm_data_027e0938.c:
+    complete
+    .data       start:0x027e0938 end:0x027e09b8
+
+src/data/dtcm_data_027e09b8.c:
+    complete
+    .data       start:0x027e09b8 end:0x027e0a08
+
+src/data/dtcm_data_027e0a08.c:
+    complete
+    .data       start:0x027e0a08 end:0x027e0a58
+
+src/data/dtcm_data_027e0a58.c:
+    complete
+    .data       start:0x027e0a58 end:0x027e0aa8
+
+src/data/dtcm_data_027e0aa8.c:
+    complete
+    .data       start:0x027e0aa8 end:0x027e0ad8
+
+src/data/dtcm_data_027e0ad8.c:
+    complete
+    .data       start:0x027e0ad8 end:0x027e0af8
+
+src/data/dtcm_data_027e0af8.c:
+    complete
+    .data       start:0x027e0af8 end:0x027e0b18
+
+src/data/dtcm_data_027e0b18.c:
+    complete
+    .data       start:0x027e0b18 end:0x027e0b30
+
+src/data/dtcm_data_027e0b30.c:
+    complete
+    .data       start:0x027e0b30 end:0x027e0b68
+
+src/data/dtcm_data_027e0b68.c:
+    complete
+    .data       start:0x027e0b68 end:0x027e0b7c
+
+src/data/dtcm_data_027e0b7c.c:
+    complete
+    .data       start:0x027e0b7c end:0x027e0ba8
+
+src/data/dtcm_data_027e0ba8.c:
+    complete
+    .data       start:0x027e0ba8 end:0x027e11e0
+
+src/data/dtcm_data_027e11e0.c:
+    complete
+    .data       start:0x027e11e0 end:0x027e1240
+
+src/data/dtcm_bss_027e1240.c:
+    complete
+    .bss        start:0x027e1240 end:0x027e1440
