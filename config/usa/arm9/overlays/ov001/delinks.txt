@@ -2072,3 +2072,79 @@ src/data/ov001_rodata_0217cf84.c:
 src/data/ov001_rodata_0217cf94.c:
     complete
     .rodata     start:0x0217cf94 end:0x0217d0d8
+
+src/data/ov001_ctor_021800b8.c:
+    complete
+    .ctor       start:0x021800b8 end:0x021800bc
+
+src/data/ov001_ctor_021800bc.c:
+    complete
+    .ctor       start:0x021800bc end:0x021800c0
+
+src/data/ov001_ctor_021800c0.c:
+    complete
+    .ctor       start:0x021800c0 end:0x021800c4
+
+src/data/ov001_ctor_021800c4.c:
+    complete
+    .ctor       start:0x021800c4 end:0x021800c8
+
+src/data/ov001_ctor_021800c8.c:
+    complete
+    .ctor       start:0x021800c8 end:0x021800cc
+
+src/data/ov001_ctor_021800cc.c:
+    complete
+    .ctor       start:0x021800cc end:0x021800d0
+
+src/data/ov001_ctor_021800d0.c:
+    complete
+    .ctor       start:0x021800d0 end:0x021800d4
+
+src/data/ov001_ctor_021800d4.c:
+    complete
+    .ctor       start:0x021800d4 end:0x021800d8
+
+src/data/ov001_ctor_021800d8.c:
+    complete
+    .ctor       start:0x021800d8 end:0x021800dc
+
+src/data/ov001_ctor_021800dc.c:
+    complete
+    .ctor       start:0x021800dc end:0x021800e0
+
+src/data/ov001_ctor_021800e0.c:
+    complete
+    .ctor       start:0x021800e0 end:0x021800e4
+
+src/data/ov001_ctor_021800e4.c:
+    complete
+    .ctor       start:0x021800e4 end:0x021800e8
+
+src/data/ov001_ctor_021800e8.c:
+    complete
+    .ctor       start:0x021800e8 end:0x021800ec
+
+src/data/ov001_ctor_021800ec.c:
+    complete
+    .ctor       start:0x021800ec end:0x021800f0
+
+src/data/ov001_ctor_021800f0.c:
+    complete
+    .ctor       start:0x021800f0 end:0x021800f4
+
+src/data/ov001_ctor_021800f4.c:
+    complete
+    .ctor       start:0x021800f4 end:0x021800f8
+
+src/data/ov001_ctor_021800f8.c:
+    complete
+    .ctor       start:0x021800f8 end:0x021800fc
+
+src/data/ov001_ctor_021800fc.c:
+    complete
+    .ctor       start:0x021800fc end:0x02180100
+
+src/data/ov001_ctor_02180100.c:
+    complete
+    .ctor       start:0x02180100 end:0x02180104

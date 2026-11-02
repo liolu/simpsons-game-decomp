@@ -84,3 +84,7 @@ src/data/dtcm_data_027e11e0.c:
 src/data/dtcm_bss_027e1240.c:
     complete
     .bss        start:0x027e1240 end:0x027e1440
+
+src/data/dtcm_data_027e0000.c:
+    complete
+    .data       start:0x027e0000 end:0x027e0200
