@@ -24209,3 +24209,11 @@ src/data/main_ctor_0210ae94.c:
 src/data/main_ctor_0210ae98.c:
     complete
     .ctor       start:0x0210ae98 end:0x0210ae9c
+
+src/data/main_exceptix_020f43b4.c:
+    complete
+    .exceptix   start:0x020f43b4 end:0x020f49f0
+
+src/data/main_exception_020f4248.c:
+    complete
+    .exception  start:0x020f4248 end:0x020f43b4
