@@ -24,6 +24,8 @@ AutoloadCallback kind:function(arm,size=0x4) addr:0x02000a74
 func_02000a78 kind:function(arm,size=0xe8) addr:0x02000a78
 func_02000b60 kind:function(arm,size=0x4) addr:0x02000b60
 BuildInfo kind:data(any) addr:0x02000b64
+_SDK_ActimagineVx kind:data(any) addr:0x02000b88
+_SDK_NintendoBackup kind:data(any) addr:0x02000b9c
 main kind:function(arm,size=0xe700) addr:0x02000bb4
 .L_02000c0c kind:label(arm) addr:0x02000c0c
 .L_02000d2c kind:label(arm) addr:0x02000d2c
