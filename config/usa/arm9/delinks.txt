@@ -24305,3 +24305,7 @@ src/auto/func_020c65e4.c:
 src/auto/func_020c8d30.c:
     complete
     .text       start:0x020c8d30 end:0x020c8d78
+
+src/auto/func_02054aa4.c:
+    complete
+    .text       start:0x02054aa4 end:0x02054ae4

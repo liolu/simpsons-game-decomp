@@ -402,3 +402,4 @@ src/auto/func_020bfca4.c 1.2/sp2p3 -O4,s
 src/auto/func_020c1218.c 2.0/sp1p5 -O4,s
 src/auto/func_020c65e4.c 1.2/sp3
 src/auto/func_020c8d30.c 1.2/sp3
+src/auto/func_02054aa4.c 2.0/sp1p5 -flag no-opt_common_subs
