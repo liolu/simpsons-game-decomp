@@ -24229,3 +24229,79 @@ src/data/main_exceptix_020f43b4.c:
 src/data/main_exception_020f4248.c:
     complete
     .exception  start:0x020f4248 end:0x020f43b4
+
+src/auto/func_0201ee94.c:
+    complete
+    .text       start:0x0201ee94 end:0x0201ef18
+
+src/auto/func_02020a28.c:
+    complete
+    .text       start:0x02020a28 end:0x02020a74
+
+src/auto/func_02020b1c.c:
+    complete
+    .text       start:0x02020b1c end:0x02020be4
+
+src/auto/func_020220e8.c:
+    complete
+    .text       start:0x020220e8 end:0x0202213c
+
+src/auto/func_0202af3c.c:
+    complete
+    .text       start:0x0202af3c end:0x0202af5c
+
+src/auto/func_0202af5c.c:
+    complete
+    .text       start:0x0202af5c end:0x0202af7c
+
+src/auto/func_0202c18c.c:
+    complete
+    .text       start:0x0202c18c end:0x0202c1b4
+
+src/auto/func_020456fc.c:
+    complete
+    .text       start:0x020456fc end:0x0204573c
+
+src/auto/func_0206208c.c:
+    complete
+    .text       start:0x0206208c end:0x020620c8
+
+src/auto/func_020621d4.c:
+    complete
+    .text       start:0x020621d4 end:0x02062214
+
+src/auto/func_02067244.c:
+    complete
+    .text       start:0x02067244 end:0x02067284
+
+src/auto/func_02071974.c:
+    complete
+    .text       start:0x02071974 end:0x020719b4
+
+src/auto/func_02074b7c.c:
+    complete
+    .text       start:0x02074b7c end:0x02074bbc
+
+src/auto/func_020ac7c0.c:
+    complete
+    .text       start:0x020ac7c0 end:0x020ac7f4
+
+src/auto/func_020aefd0.c:
+    complete
+    .text       start:0x020aefd0 end:0x020af100
+
+src/auto/func_020bfca4.c:
+    complete
+    .text       start:0x020bfca4 end:0x020bfce0
+
+src/auto/func_020c1218.c:
+    complete
+    .text       start:0x020c1218 end:0x020c1268
+
+src/auto/func_020c65e4.c:
+    complete
+    .text       start:0x020c65e4 end:0x020c6650
+
+src/auto/func_020c8d30.c:
+    complete
+    .text       start:0x020c8d30 end:0x020c8d78
